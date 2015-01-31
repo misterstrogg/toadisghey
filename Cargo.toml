@@ -1,6 +1,6 @@
 [package]
 
-name = "groot"
-description = "The Groot Programming Language"
+name = "bacon"
+description = "The Bacon Programming Language"
 version = "0.0.1"
-authors = ["thiagopnts <thiagopnts@gmail.com>"]
+authors = ["Tom Gallacher <tomgallacher23@gmail.com>"]
