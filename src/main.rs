@@ -26,6 +26,6 @@ fn main() {
                 Err(error) => panic!("{}", error),
             }
         },
-        None => println!("Usage: bacon file.bacon"),
+        None => println!("Usage: toadisghey file.toadisghey"),
     }
 }

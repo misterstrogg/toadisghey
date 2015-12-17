@@ -19,14 +19,14 @@ pub trait ToOp {
 impl ToOp for String {
     fn to_op(&self) -> Op {
         match self.as_slice() {
-            "Bacon+" => Op::Increment,
-            "Bacon-" => Op::Decrement,
-            "Bacon." => Op::Output,
-            "Bacon>" => Op::Right,
-            "Bacon<" => Op::Left,
-            "Bacon^" => Op::Jump,
-            "Bacon?" => Op::JumpBack,
-            "Bacon|" => Op::Input,
+            "toadisghey+" => Op::Increment,
+            "toadisghey-" => Op::Decrement,
+            "toadisghey." => Op::Output,
+            "toadisghey>" => Op::Right,
+            "toadisghey<" => Op::Left,
+            "toadisghey^" => Op::Jump,
+            "toadisghey?" => Op::JumpBack,
+            "toadisghey|" => Op::Input,
             _ => Op::Unknown,
         }
     }
